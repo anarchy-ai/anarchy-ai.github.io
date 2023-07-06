@@ -1,45 +1,44 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import AnarchyLogoGithub from '@site/static/img/AnarchyLogoGithub.png';
+import AnarchyLogoTwitter from '@site/static/img/AnarchyLogoTwitter.jpeg';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Open Source',
+    imageLocation: AnarchyLogoGithub,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        We will move towards open-source, not away from it. Check our github for bounties 🤑
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Build for Builders',
+    imageLocation: AnarchyLogoTwitter,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Hackers need freedom, hackers need information. We build for you.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Judgement Free',
+    imageLocation: require('@site/static/img/AnarchyLogoTwitter.jpeg'),
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Tools should not have rules, we will not judge your use-cases (provided they are legal)
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({imageLocation, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={imageLocation} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
