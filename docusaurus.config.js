@@ -8,10 +8,10 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Anarchy',
   tagline: 'Developer-first LLM Infra',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/AnarchyLogoGithub.png',
 
   // Set the production url of your site here
-  url: 'https://anarchy.ai',
+  url: 'https://anarchy-ai.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -44,14 +44,12 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/anarchy-ai/anarchy-ai.github.io',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogDescription: "Anarchy News",
+          blogSidebarCount: 0,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,24 +62,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/AnarchyLogoGithub.png',
       navbar: {
-        title: 'My Site',
+        title: 'Anarchy',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'AnarchyLogoGithub',
+          src: 'img/AnarchyLogoGithub.png',
         },
         items: [
+          {to: '/docs/category/home', label: 'Documentation', position: 'right'},
+          {to: '/blog', label: 'News', position: 'right'},
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/anarchy-ai',
+            label: 'Github',
             position: 'right',
           },
         ],
@@ -90,46 +83,51 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'YCombinator',
+                href: 'https://www.ycombinator.com/companies/anarchy',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/qaFf7S373c',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/anarchy_ai_inc',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/anarchy-ai',
+              },
+              {
+                label: 'Enterprise Solutions',
+                href: 'https://anarchy.ai/'
+              }
             ],
           },
           {
-            title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: 'News',
                 to: '/blog',
               },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
               },
+              {
+                label: 'Documentation',
+                to: '/docs/category/home',
+              },
+              {
+                label: 'Careers',
+                to: '/docs/documentation/Careers',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Anarchy.ai, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
