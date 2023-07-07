@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 # Careers
@@ -8,21 +8,16 @@ sidebar_position: 5
 Do you love to build? Do you have the creativity and tenacity to solve hard problems? If so, reach out! We're always looking for serious hackers to join our cause.
 
 ### Our Work Values
-- Always be on the lookout for opportunities to be helpful
-- Truth comes from discourse.
-- Every side has a grain of truth (in non-technical discussions).  You just don't know everybody's language.  You're aim should be to learn.
-- Be honest.
-- Just do things and many things, but do them well.
-- Don’t ask for permission.
-- Don’t be mad if somebody does a thing  without asking permission.  Next time make sure the auths are correct.
-- A product shouldn't tell somebody they can't do something, but it's okay to tell them they shouldn't.
-- Code should be simple and short.
-- Code duplication is the root of all evil.
-- Ask many questions.
-- Ask open-ended questions.
-- Don’t be the first person to critique an idea.
-- Critique your own idea first, and publicly.
-- Every idea is valuable yet somehow terrible.
+- Be helpful; do many things and do them well
+- Ask questions, start discussions, chase the truth
+- Set ambitious standards for yourself and those around you
+- Be honest and bold
+- Take ownership; let your ideas and work shine, no permission needed
+- Learn from conflicts; harness them as catalysts for growth
+- Code for simplicity; craft elegant solutions
+- Learn continuously; dare to explore new horizons
+- Embrace change and grow boundlessly
+- Challenge limits; our products foster endless possibilities
 
 
 ### Apply

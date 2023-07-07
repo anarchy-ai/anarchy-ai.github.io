@@ -7,7 +7,7 @@ import AnarchyLogoTwitter from '@site/static/img/AnarchyLogoTwitter.jpeg';
 const FeatureList = [
   {
     title: 'Open Source',
-    imageLocation: AnarchyLogoGithub,
+    imageLocation: AnarchyLogoTwitter,
     description: (
       <>
         We will move towards open-source, not away from it. Check our github for bounties 🤑
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'Build for Builders',
-    imageLocation: AnarchyLogoTwitter,
+    imageLocation: AnarchyLogoGithub,
     description: (
       <>
         Hackers need freedom, hackers need information. We build for you.
@@ -25,7 +25,7 @@ const FeatureList = [
   },
   {
     title: 'Judgement Free',
-    imageLocation: require('@site/static/img/AnarchyLogoTwitter.jpeg'),
+    imageLocation: AnarchyLogoTwitter,
     description: (
       <>
         Tools should not have rules, we will not judge your use-cases (provided they are legal)

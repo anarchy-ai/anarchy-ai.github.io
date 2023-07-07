@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/AnarchyLogoGithub.png',
 
   // Set the production url of your site here
-  url: 'https://anarchy.ai',
+  url: 'https://anarchy-ai.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -70,7 +70,7 @@ const config = {
           src: 'img/AnarchyLogoGithub.png',
         },
         items: [
-          {to: '/docs/category/welcome-hacker', label: 'Documentation', position: 'right'},
+          {to: '/docs/category/home', label: 'Documentation', position: 'right'},
           {to: '/blog', label: 'News', position: 'right'},
           {
             href: 'https://github.com/anarchy-ai',
@@ -109,7 +109,7 @@ const config = {
           {
             items: [
               {
-                label: 'Blog',
+                label: 'News',
                 to: '/blog',
               },
               {
@@ -118,11 +118,11 @@ const config = {
               },
               {
                 label: 'Documentation',
-                to: '/docs/category/welcome-hacker',
+                to: '/docs/category/home',
               },
               {
                 label: 'Careers',
-                to: '/docs/category/welcome-hacker',
+                to: '/docs/documentation/Careers',
               },
             ],
           },
