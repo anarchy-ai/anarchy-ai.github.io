@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/AnarchyLogoGithub.png',
 
   // Set the production url of your site here
-  url: 'https://anarchy-ai.github.io',
+  url: 'https://anarchy.ai',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
