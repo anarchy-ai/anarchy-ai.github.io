@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanarchy_ai_github_io=self.webpackChunkanarchy_ai_github_io||[]).push([[566],{6670:e=>{e.exports=JSON.parse('{"title":"Home","description":"We\'re on a mission to democratize AI at whatever the cost","slug":"/category/home","permalink":"/docs/category/home","navigation":{"next":{"title":"Mission","permalink":"/docs/documentation/Mission"}}}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkanarchy_ai_github_io=self.webpackChunkanarchy_ai_github_io||[]).push([[713],{3457:a=>{a.exports=JSON.parse('[{"label":"First Post","permalink":"/blog/tags/first-post","count":1},{"label":"Swag","permalink":"/blog/tags/swag","count":1}]')}}]);
