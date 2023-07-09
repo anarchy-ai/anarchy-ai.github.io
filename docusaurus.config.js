@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/AnarchyLogoGithub.png',
 
   // Set the production url of your site here
-  url: 'https://anarchy.ai',
+  url: 'https://anarchy-ai.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -41,10 +41,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/anarchy-ai/anarchy-ai.github.io',
         },
         blog: {
           showReadingTime: true,

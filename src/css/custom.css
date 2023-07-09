@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+div.anarchy-button-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(89, 65, 65, 0.5);
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a.anarchy-button {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--red);
+  margin: 10px;
+  padding: 0 1em;
+  font-size: 16px;
+  line-height: 2.2em;
+}
+
+a.anarchy-button:hover,
+a.anarchy-button:active {
+  background-color: #176667;
+}

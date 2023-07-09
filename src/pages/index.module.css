@@ -8,6 +8,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  align-items: center;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,5 +21,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border-spacing: 5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.socialLinks {
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 1200px;
+}
+
+.socialLinks > * {
+  margin-right: 1rem;
 }
