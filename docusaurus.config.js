@@ -41,6 +41,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/anarchy-ai/anarchy-ai.github.io/tree/main/',
         },
         blog: {
           showReadingTime: true,
